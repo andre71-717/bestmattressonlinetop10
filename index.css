@@ -575,3 +575,139 @@
         line-height: 42px;
     }
 }
+
+.menu_list{
+    width: 100%;
+    height: auto;
+    margin: 55px 0;
+    position: relative;
+}
+
+.menu_list_2{
+    overflow: auto;
+}
+
+.menu_list_ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2%;
+   
+
+}
+
+.menu_list_ul li{
+    width: 7%;
+    height: auto;
+    background-color: rgba(29, 46, 77, 0.12);
+    color: rgb(131, 133, 134);
+    list-style: none;
+    padding: 12px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    cursor: pointer;
+    font-family: Amazon_Ember_Regular;
+
+}
+
+.menu_list_ul li:nth-child(1){
+    background-color: rgb(29, 46, 77);
+    color: white;
+}
+
+.bmo_ranking_box_inners ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.bmo_ranking_section{
+    width: 100%;
+    height: auto;
+    margin: 30px 0;
+}
+
+.bmo_ranking_box{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+}
+
+.line_for_raking{
+    background-color: rgb(195 202 213);
+    width: 120px;
+    height: 1px;
+    position: relative;
+}
+
+.box_for_ranking{
+    width: 70px;
+    height: auto;
+    background-color: rgb(255, 154, 1);
+    color: white;
+    font-family: Amazon_Ember_Regular;
+    border-bottom-right-radius: 25px;
+    padding: 10px;
+    font-size: 10px;
+    position: absolute;
+    left: 16%;
+
+}
+
+.box_for_ranking h1{
+    text-align: center;
+    font-size: 23px;
+}
+
+.box_for_ranking span{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.editors_choice{
+    margin: 23px 0;
+    margin-top: 150px;
+}
+
+.editors_choice h4{
+    font-size: 15px;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: Amazon_Ember_Regular;
+
+}
+
+.editors_choice_inners_flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.editors_choice_inners_flex p{
+    font-family: Amazon_Ember_Regular;
+}
+
+.fa-check{
+    font-size: 15px;
+}
+
+.editors_choice_inners{
+    line-height: 25px;
+}
