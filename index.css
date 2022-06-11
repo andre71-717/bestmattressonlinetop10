@@ -622,6 +622,13 @@
     color: white;
 }
 
+.bmo_ranking_box_inners{
+    flex-basis: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .bmo_ranking_box_inners ul {
     display: flex;
     flex-direction: column;
@@ -635,7 +642,7 @@
 }
 
 .bmo_ranking_box{
-    margin: auto;
+    margin: 0 10%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -662,7 +669,7 @@ ul li{
     padding: 10px;
     font-size: 10px;
     position: absolute;
-    left: 16%;
+    left: 19%;
 
 }
 
@@ -711,3 +718,139 @@ ul li{
 .editors_choice_inners{
     line-height: 25px;
 }
+
+.puffylux_png{
+    max-width: 300px;
+    width: auto;
+    max-height: 100px;
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.mattress_png{
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.ratingstars_png{
+    width: 100%;
+}
+
+.bmo_ranking_box_inners_ul_li_1{
+    margin: auto;
+}
+
+.bmo_ranking_box_inners_ul_li_3{
+    text-align: center;
+    margin: auto;
+}
+
+.bmo_ranking_box_inners_ul_li_3 h3{
+    margin: 15px 0;
+    font-family: Amazon_Ember_Regular;
+    color: #a29b9b;
+
+
+}
+
+.line_for_raking_2{
+    background-color: rgb(195 202 213);
+    width: 225px;
+    height: 1px;
+    position: relative;
+}
+
+.CR{
+    width: 177px;
+    height: auto;
+    background-color: var(--mainColor);
+    color: white;
+    border-bottom-left-radius: 25px;
+    padding: 7px;
+    font-family: Amazon_Ember_Regular;
+    position: absolute;
+    right: 20%;
+
+}
+
+.save_750{
+    margin-top: 45%;
+    font-family: Amazon_Ember_Regular;
+}
+
+.save_750 h2{
+    font-size: 15px;
+}
+
+.includes_accessorices{
+    font-family: Amazon_Ember_Regular;
+    margin: 7% 0;
+}
+
+.includes_accessorices p{
+    font-size: 14px;
+}
+
+.shop_button{
+    font-family: Amazon_Ember_Regular;
+    width: 100%;
+    margin-top: 5% 0;
+}
+
+.shop_button_inner{
+    color: white;
+    border: none;
+    border-radius: 35%;
+    padding: 13px;
+}
+
+.visit_site{
+    font-family: Amazon_Ember_Regular;
+    width: 100%;
+    margin: 5% 0;
+}
+
+.visit_site a{
+    font-family: Amazon_Ember_Regular;
+    color: black !important;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+
+
+
+/* CSS */
+.button-21 {
+  align-items: center;
+  appearance: none;
+  background-color: rgb(255, 154, 1);
+  background-size: calc(100% + 20px) calc(100% + 20px);
+  border-radius: 100px;
+  border-width: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: Amazon_Ember_Regular;
+  font-size: 1rem;
+  height: auto;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 6px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color .2s,background-position .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
