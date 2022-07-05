@@ -321,9 +321,6 @@
     .main_header_li_2_p {
         line-height: 20px;
     }
-    .box_for_ranking_2{
-        left: 21% !important;
-    }
 }
 
 @media(max-width: 1660px){
@@ -609,11 +606,6 @@
     }
 }
 
-@media(max-width: 850px){
-    .box_for_ranking_2{
-        left: 3% !important;
-    }
-}
 
 .menu_list{
     width: 100%;
@@ -695,7 +687,7 @@ ul li{
     background-color: rgb(195 202 213);
     width: 120px;
     height: 1px;
-    position: relative;
+    /* position: relative; */
 }
 
 .box_for_ranking{
@@ -707,8 +699,7 @@ ul li{
     border-bottom-right-radius: 25px;
     padding: 10px;
     font-size: 10px;
-    position: absolute;
-    left: 23%;
+    margin-left: 20%;
 
 }
 
@@ -727,12 +718,12 @@ ul li{
 }
 
 .editors_choice{
-    margin-top: 100%;
+    margin-top: 52%;
     margin-bottom: 13px;
 }
 
 .editors_choice_2{
-    margin-top: 70%;
+    margin-top: 42%;
     margin-bottom: 13px;
 }
 
@@ -813,7 +804,7 @@ ul li{
     background-color: rgb(195 202 213);
     width: 225px;
     height: 1px;
-    position: relative;
+    /* position: relative; */
 }
 
 
@@ -950,23 +941,6 @@ ul li{
   margin: 7px 0;
 }
 
-@media(max-width: 1800px){
-
-    .box_for_ranking{
-        left: 23% !important;
-    }
-}
-
-@media(max-width: 1500px){
-
-    .box_for_ranking{
-        left: 22% !important;
-    }
-    .box_for_ranking_2{
-        left: 20% !important;
-    }
-}
-
 
 
 @media(max-width: 1300px){
@@ -974,13 +948,6 @@ ul li{
        margin: 0;
     }
 
-    .box_for_ranking {
-        left: 10%;
-    }
-
-    .box_for_ranking{
-        left: 10% !important;
-    }
     .editors_choice_inners{
         line-height: 25px;
     }
@@ -992,24 +959,11 @@ ul li{
      .customer_reviews_inners {
         width: 93% !important;
      }
-     .box_for_ranking_2{
-        left: 9% !important;
-    }
-}
-    @media(max-width: 1110px){
-    .box_for_ranking{
-        left: 9% !important;
-    }
-
-    .box_for_ranking_2{
-        left: 7% !important;
-    }
-
-   
-
+     
 }
 
-@media(max-width: 1000px){
+
+ @media(max-width: 1000px){
     .editors_choice_inners_flex p{
         font-size: 14px;
     }
@@ -1035,10 +989,7 @@ ul li{
         padding: 8px !important;
     }
 
-    .box_for_ranking_2{
-        left: 6% !important;
-    }
-}
+} 
 
 .verified_CR{
     width: 100%;
@@ -1162,7 +1113,6 @@ ul li{
  
 
  .box_for_ranking_2{
-  
         width: 70px;
         height: auto;
         background-color: var(--mainColor);
@@ -1171,8 +1121,7 @@ ul li{
         border-bottom-right-radius: 25px;
         padding: 10px;
         font-size: 10px;
-        position: absolute;
-        left: 22%;
+        margin-left: 42%;
  }
 
  .box_for_ranking_2 h1{
@@ -1269,13 +1218,11 @@ ul li{
         display: block;
     }
 
-    .box_for_ranking {
-        left: 7% !important;
-    }
 
-    .bmo_ranking_box_inners ul{
-        margin: 70px 0 ;
-    }
+   .bmo_ranking_box_inners_ul_1{
+    margin-top: 20%;
+    margin-bottom: 7%;
+   }
 
     .bmo_ranking_box_inners_ul_li_3 .line_for_raking_2{
         display: none !important;
@@ -1391,6 +1338,10 @@ ul li{
     .bmo_ranking_box_inners_ul_for_mobile :nth-child(4){
         display: block;
     }
+
+    .box_for_ranking {
+        margin-left: 48%;
+    }
  }
 
 
@@ -1413,7 +1364,6 @@ ul li{
     color: rgb(39, 53, 73);
     font-family: Lato;
     text-align: center;
-    margin: 5% 0;
     font-family: Amazon_Ember_Regular;
     font-size: 45px;
 }
@@ -1487,7 +1437,7 @@ td{
 .tdinners{
     background-color: rgb(255, 166, 34);;
     width: 95%;
-    top: -114px;
+    top: -103px;
     left: 0px;
     font-size: 13px;
     border-top-left-radius: 15px;
