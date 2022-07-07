@@ -37,10 +37,21 @@ main_header_li_2_h4.innerHTML = new_date_2
 
 main_header_li_2_h4.style.lineHeight = "40px"
 
-let disclosure_img = document.querySelector(".disclosure_img")
-let disclosure = document.querySelector(".disclosure_text")
 
-disclosure_img.addEventListener("click", function(){
+let main_header_li_4_disclosure = document.querySelector(".main_header_li_4_disclosure")
+let disclosure = document.querySelector(".disclosure")
+let main_header_li_4_span = document.querySelector(".main_header_li_4_span")
+
+main_header_li_4_span.addEventListener("mouseover", function(){
     disclosure.style.display = "block"
+})
+
+main_header_li_4_span.addEventListener("click", function(){
+    disclosure.style.display = "block"
+})
+
+window.addEventListener("click", function(){
+    disclosure.style.display = "none"
+
 })
 

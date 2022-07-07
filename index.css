@@ -263,19 +263,37 @@
 
 }
 
+.main_header_li_4_span{
+    color: white;
+    display: flex;
+    gap: 5px;
+    font-family: Amazon_Ember_Regular;
+    position: relative;
+}
+
+.disclosure_img{
+    vertical-align: middle;
+}
+
 .main_header_li_4 p{
     color: white;
 }
 
 .disclosure{
-    width: 20%;
+    width: 175%;
     height: auto;
     border: 0.2px solid black;
     background-color: white;
     border-radius: 5px;
     z-index: 10;
     display: none;
+    position: absolute;
+    top: 120%;
 
+}
+
+.disclosure_2{
+    display: block;
 }
 
 .disclosure p{
@@ -1121,7 +1139,7 @@ ul li{
         border-bottom-right-radius: 25px;
         padding: 10px;
         font-size: 10px;
-        margin-left: 42%;
+        margin-left: 22%;
  }
 
  .box_for_ranking_2 h1{
@@ -1342,6 +1360,10 @@ ul li{
     .box_for_ranking {
         margin-left: 48%;
     }
+
+    .box_for_ranking_2 {
+        margin-left: 42%;
+    }
  }
 
 
@@ -1468,6 +1490,7 @@ td{
 .tdinners h4{
    color: white; 
    font-size: 14px;
+   font-family: Amazon_Ember_Regular;
 }
 
 .tableimgs img{
