@@ -55,3 +55,7 @@ window.addEventListener("click", function(){
 
 })
 
+
+disclosure.addEventListener("mouseout", function(){
+    disclosure.style.display = "none"
+})

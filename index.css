@@ -624,6 +624,25 @@
     }
 }
 
+@media(max-width: 370px){
+    /* .line_for_raking{
+        width: 75px !important;
+    }
+
+    .box_for_ranking h1{
+        font-size: 15px !important;
+    }
+
+    .box_for_ranking span{
+        font-size: 10px !important;
+    } */
+
+   
+
+}
+
+
+
 
 .menu_list{
     width: 100%;
@@ -838,8 +857,13 @@ ul li{
 
 .save_750_for_others{
     font-family: Amazon_Ember_Regular;
-    margin: 15px 0;
     margin: auto;
+}
+
+.save_750_for_others_2{
+    font-family: Amazon_Ember_Regular;
+    margin: auto;
+    margin-bottom: 10%;
 }
 
 .save_750 h2{
@@ -852,7 +876,19 @@ ul li{
 
 }
 
+.save_750_for_others_2 h2{
+    font-size: 21px;
+    color: rgb(255, 154, 1);
+
+}
+
 .save_750_for_others span{
+    font-size: 21px;
+    color: black;
+
+}
+
+.save_750_for_others_2 span{
     font-size: 21px;
     color: black;
 
@@ -928,7 +964,6 @@ ul li{
 
 
 
-/* CSS */
 .button-21 {
   align-items: center;
   appearance: none;
@@ -1023,6 +1058,10 @@ ul li{
     justify-content: space-around;
     align-items: center;
     
+}
+
+.my_ranking_2{
+    margin-bottom: 50%;
 }
 
 .horizontalline{
@@ -1279,7 +1318,7 @@ ul li{
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        margin: 0 20px;
+        margin: 30px 20px;
     }
 
     .editors_choice {
@@ -1363,6 +1402,10 @@ ul li{
 
     .box_for_ranking_2 {
         margin-left: 42%;
+    }
+
+    .my_ranking_2{
+        margin-bottom: 0;
     }
  }
 
