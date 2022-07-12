@@ -291,12 +291,30 @@
     top: 120%;
 
 }
+.disclosure_mobile{
+    width: 37%;
+    height: auto;
+    border: 0.2px solid black;
+    background-color: white;
+    border-radius: 5px;
+    z-index: 10;
+    position: absolute;
+    top: 67%;
+    display: none;
+}
+
 
 .disclosure_2{
     display: block;
 }
 
 .disclosure p{
+    font-family: Amazon_Ember_Regular;  
+    color: black;
+    padding: 5px;
+}
+
+.disclosure_mobile p{
     font-family: Amazon_Ember_Regular;  
     color: black;
     padding: 5px;
@@ -618,26 +636,47 @@
 
 }
 
-@media(max-width: 525px){
-    .main_header_li_2_mobile h1{
-        line-height: 42px;
+
+@media(max-width: 775px){
+    .disclosure_mobile{
+        width: 60%;
+        top: 70%;
     }
 }
 
-@media(max-width: 370px){
-    /* .line_for_raking{
-        width: 75px !important;
+
+@media(max-width: 527px){
+    .main_header_li_2_mobile h1{
+        line-height: 42px;
     }
 
-    .box_for_ranking h1{
-        font-size: 15px !important;
+    .disclosure_mobile {
+        top: 75%;
     }
 
-    .box_for_ranking span{
-        font-size: 10px !important;
-    } */
+    .disclosure_mobile{
+        width: 80%;
+    }
+}
 
-   
+
+
+@media(max-width: 496px){
+    .disclosure_mobile {
+        top: 80%;
+    }
+}
+
+@media(max-width: 405px){
+    .disclosure_mobile {
+        top: 83%;
+    }
+}
+
+@media(max-width: 338px){
+    .disclosure_mobile {
+        top: 92%;
+    }
 
 }
 
@@ -667,12 +706,12 @@
 }
 
 .menu_list_ul li{
-    width: 7%;
+    width: 9%;
     height: auto;
     background-color: rgba(29, 46, 77, 0.12);
     color: rgb(131, 133, 134);
     list-style: none;
-    padding: 12px;
+    padding: 21px;
     font-size: 15px;
     display: flex;
     justify-content: center;
@@ -918,8 +957,10 @@ ul li{
 }
 
 .includes_accessorices{
+    width: 100%;
+    text-align: center;
     font-family: Amazon_Ember_Regular;
-    margin: 7% 100px;
+    margin: 3% 0;
 }
 
 .includes_accessorices p{
@@ -930,7 +971,7 @@ ul li{
 .shop_button{
     font-family: Amazon_Ember_Regular;
     width: 100%;
-    margin-top: 5% 0;
+    margin-top: 5%;
 }
 
 .shop_button_inner{

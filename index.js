@@ -42,6 +42,7 @@ let main_header_li_4_disclosure = document.querySelector(".main_header_li_4_disc
 let disclosure = document.querySelector(".disclosure")
 let main_header_li_4_span = document.querySelector(".main_header_li_4_span")
 
+
 main_header_li_4_span.addEventListener("mouseover", function(){
     disclosure.style.display = "block"
 })
@@ -58,4 +59,17 @@ window.addEventListener("click", function(){
 
 disclosure.addEventListener("mouseout", function(){
     disclosure.style.display = "none"
+})
+
+
+let disclosure_img_2 = document.querySelector(".disclosure_img")
+let disclosure_mobile = document.querySelector(".disclosure_mobile")
+let main_header_li_4_mobile = document.querySelector(".main_header_li_4_mobile")
+
+main_header_li_4_mobile.addEventListener("click", function(){
+    disclosure_mobile.style.display = "block"
+})
+
+window.addEventListener("click", function(){
+    disclosure_mobile.style.display = "none"
 })
