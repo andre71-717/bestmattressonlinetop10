@@ -73,3 +73,33 @@ main_header_li_4_mobile.addEventListener("click", function(){
 window.addEventListener("click", function(){
     disclosure_mobile.style.display = "none"
 })
+
+let left = document.querySelector(".left")
+let right = document.querySelector(".right")
+let table = document.querySelector(".tablee")
+
+
+    left.addEventListener("click", function(){
+        table.scrollBy({
+            top: 0,
+            left: -125,
+            behavior: 'smooth'
+          }) 
+        
+    })
+    
+    right.addEventListener("click", function(){
+        table.scrollBy({
+            top: 0,
+            left: +125,
+            behavior: 'smooth'
+          }) 
+    })
+    
+
+
+
+
+
+
+
