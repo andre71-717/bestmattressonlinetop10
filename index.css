@@ -1747,3 +1747,86 @@ td p{
     border: 0;
    visibility: hidden;
 }
+
+
+.for_faq{
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+}
+
+.li_1{
+    text-align: center;
+    color: #273549;
+    font-family: Amazon_Ember_Regular;
+    font-size: 43px;
+}
+
+.for_faq_inners{
+    width: 100%;
+    display: flex;
+    margin: 15px 0;
+    gap: 10px; 
+    cursor: pointer; 
+}
+
+.li_2{
+    margin: 0 15%;
+}
+
+.for_faq_arrow{
+    font-size: 20px;
+    color: #273549;
+    font-family: Amazon_Ember_Regular;
+}
+
+.for_faq_arrow_display{
+    display: none !important;
+}
+
+.for_faq_arrow_up{
+    font-size: 20px;
+    color: #273549;
+    font-family: Amazon_Ember_Regular;
+    display: none !important;
+}
+
+.for_faq_arrow_up_display{
+    display: flex !important;
+    align-items: center;
+}
+
+
+.for_faq_text{
+    color: #273549;
+    font-size: 23px;
+    font-family: Amazon_Ember_Regular;
+    font-weight: bold;
+}
+
+.for_faq_text:hover{
+    color: #3c485a;
+}
+
+.for_faq_p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    color: #474747;
+    line-height: 23px;
+    font-family: Amazon_Ember_Regular;
+    display: none;
+}
+
+.for_faq_p_display{
+    display: flex;
+}
+
+.my_faq_line{
+    margin: 15px 0;
+    width: 70%;
+    margin-left: 15%;
+    opacity: 0.2;
+}

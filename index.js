@@ -99,6 +99,21 @@ let table = document.querySelector(".tablee")
 
 
 
+let for_faq_inners = document.querySelector(".for_faq_inners")
+let for_faq_p = document.querySelector(".for_faq_p")
+let for_faq_arrow = document.querySelector(".for_faq_arrow")
+let for_faq_arrow_up = document.querySelector(".for_faq_arrow_up")
+for_faq_p.animate(
+    { transform: 'translateY(0)'}, 
+    {
+      duration: 500,
+      fill: 'forwards'
+    })
+for_faq_inners.addEventListener("click", function(){
+    for_faq_p.classList.toggle("for_faq_p_display")
+    for_faq_arrow.classList.toggle("for_faq_arrow_display")
+    for_faq_arrow_up.classList.toggle("for_faq_arrow_up_display")
+})
 
 
 
