@@ -24,9 +24,6 @@ hamburger_flex_bases2.addEventListener("click", function(){
 })
 
 
-
-// ----------------header-------------->
-
 let main_header_li_date = document.querySelector(".main_header_li_date")
 let new_date = new Date().toLocaleDateString('en-us',{year:'numeric', month:'short',day:'numeric'}) 
 main_header_li_date.innerHTML = "Updated: "+ new_date
@@ -66,6 +63,10 @@ let disclosure_img_2 = document.querySelector(".disclosure_img")
 let disclosure_mobile = document.querySelector(".disclosure_mobile")
 let main_header_li_4_mobile = document.querySelector(".main_header_li_4_mobile")
 
+disclosure_img_2.addEventListener("click", function(){
+    disclosure_mobile.style.display = "block"
+})
+
 main_header_li_4_mobile.addEventListener("click", function(){
     disclosure_mobile.style.display = "block"
 })
@@ -82,7 +83,7 @@ let table = document.querySelector(".tablee")
     left.addEventListener("click", function(){
         table.scrollBy({
             top: 0,
-            left: -125,
+            left: -160,
             behavior: 'smooth'
           }) 
         
@@ -91,7 +92,7 @@ let table = document.querySelector(".tablee")
     right.addEventListener("click", function(){
         table.scrollBy({
             top: 0,
-            left: +125,
+            left: +160,
             behavior: 'smooth'
           }) 
     })
@@ -118,3 +119,13 @@ for_faq_inners.addEventListener("click", function(){
 
 
 
+  window.addEventListener("scroll", function(){
+    
+    let scroll = this.document.querySelector(".top_button");
+
+    if(this.window.scrollY < 500){
+        scroll.style.display = "none"
+    }else{
+        scroll.style.display = "block"
+    }
+  })

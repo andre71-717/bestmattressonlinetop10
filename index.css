@@ -195,6 +195,10 @@ html{
 
 /* -------------Header----------> */
 
+body{
+    position: relative;
+}
+
 .main_header{
     width: 100%;
     height: auto;
@@ -564,7 +568,26 @@ html{
         padding: 3% 12%;
         line-height: 35px;
     }
+
+    .li_2{
+        margin: 0 4% !important;
+    }
     
+    .my_faq_line{
+        margin: 0 7% !important;
+        width: 92% !important;
+
+    }
+
+    .for_faq_p{
+        margin: 0 3% !important;
+        margin-bottom: 15px !important;
+
+    }
+
+    .for_faq{
+        padding: 40px 0 !important;
+    }
 }
 
 @media(max-width: 1030px){
@@ -674,6 +697,15 @@ html{
         width: 60%;
         top: 70%;
     }
+
+    .top_button{
+        bottom: 8px !important;
+        right: 18px !important;
+    }
+
+    .my_top_i{
+        font-size: 40px !important;
+    }
 }
 
 
@@ -689,6 +721,11 @@ html{
     .disclosure_mobile{
         width: 80%;
     }
+
+    .li_1{
+        margin-bottom: 10% !important;
+    }
+
 }
 
 
@@ -711,8 +748,6 @@ html{
     }
 
 }
-
-
 
 
 .menu_list{
@@ -1090,6 +1125,8 @@ ul li{
      .save_750_for_others{
         margin-top: 5px !important;
     }
+
+
      
 }
 
@@ -1485,6 +1522,10 @@ ul li{
     .my_ranking_2{
         margin-bottom: 0;
     }
+
+    .for_faq{
+        margin-top: 10% !important;
+    }
  }
 
 
@@ -1753,6 +1794,8 @@ td p{
     width: 100%;
     height: auto;
     margin-top: 5%;
+    padding: 15px 0;
+    background-color: #fbfbfb;
 }
 
 .li_1{
@@ -1760,6 +1803,8 @@ td p{
     color: #273549;
     font-family: Amazon_Ember_Regular;
     font-size: 43px;
+    margin-bottom: 5%;
+    padding: 2% 0;
 }
 
 .for_faq_inners{
@@ -1825,8 +1870,108 @@ td p{
 }
 
 .my_faq_line{
-    margin: 15px 0;
+    margin: 25px 0;
     width: 70%;
     margin-left: 15%;
     opacity: 0.2;
 }
+
+.footer_background{
+    background-color: rgb(29, 46, 77);
+    width: 100%;
+    height: auto;
+}
+
+.all_rights_reserved{
+    color: white;
+    text-align: center;
+    font-family: Amazon_Ember_Regular;
+    padding-top: 7px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.terms_privacy_disc_contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 7px;
+    cursor: pointer;
+}
+
+.vertical_line{
+    width: 17px;
+    height: 2px;
+    color: white;
+    background-color: white;
+    transform: rotate(90deg);
+}
+
+.terms{
+    color: white;
+    font-family: Amazon_Ember_Regular;
+    padding-bottom: 7px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.terms:hover{
+    color: #dfdfdf;
+}
+
+.pp{
+    color: white;
+    font-family: Amazon_Ember_Regular;
+    padding-bottom: 7px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.pp:hover{
+    color: #dfdfdf;
+}
+
+.disclaimer{
+    color: white;
+    font-family: Amazon_Ember_Regular;
+    padding-bottom: 7px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.disclaimer:hover{
+    color: #dfdfdf;
+}
+
+.contact{
+    color: white;
+    font-family: Amazon_Ember_Regular;
+    padding-bottom: 7px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.contact:hover{
+    color: #dfdfdf;
+}
+
+.top_button{
+    position: fixed;
+    bottom: 25px;
+    right: 40px;
+}
+
+.top_button i{
+    color: rgb(29, 46, 77);
+    font-size: 45px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* .top_button i:hover{
+    border: 1px solid rgb(29, 46, 77);
+    border-radius: 50%;
+    padding: 5px;
+} */
+
